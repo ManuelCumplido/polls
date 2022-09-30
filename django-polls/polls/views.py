@@ -7,7 +7,7 @@ from django.utils import timezone
 
 from .models import Choice, Question
 
-
+#Esta es la clase IndexView
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
     context_object_name = 'latest_question_list'
